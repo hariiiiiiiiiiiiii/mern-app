@@ -14,7 +14,7 @@ export default function Create() {
 
     const addUser = { name, email, age };
 
-    const response = await fetch("http://localhost:5000", {
+    const response = await fetch("https://mern-app-gedp.onrender.com", {
       method: "POST",
       body: JSON.stringify(addUser),
       headers: {
