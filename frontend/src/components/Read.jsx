@@ -10,7 +10,7 @@ export default function Read() {
   // Fetch data from the backend
   async function getdata() {
     try {
-      const response = await fetch("http://localhost:5000");
+      const response = await fetch("https://mern-app-gedp.onrender.com");
 
       const result = await response.json();  
 
