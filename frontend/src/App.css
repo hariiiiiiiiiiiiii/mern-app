@@ -1,0 +1,18 @@
+
+.App {
+  display: flex; /* Enable flexbox on the parent container */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: flex-start; /* Align children at the top */
+ 
+}
+
+.navbar {
+  width: 100%; /* Navbar takes full width */
+  
+  padding: 10px;
+  text-align: center; /* Centers text or content inside the navbar */
+  color: aliceblue;
+}
+
+
