@@ -10,7 +10,9 @@ app.get('/favicon.ico', (req, res) => {
 
 const cors = require("cors");
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://mern-app-1-bnoi.onrender.com'  // Replace with your actual frontend URL
+}));
 
 const userRoute = require("./routes/userRoute");
 
